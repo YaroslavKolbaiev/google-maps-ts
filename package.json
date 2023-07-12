@@ -1,0 +1,22 @@
+{
+  "name": "ts_maps",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@types/google.maps": "^3.53.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "parcel": "^2.9.3"
+  }
+}
